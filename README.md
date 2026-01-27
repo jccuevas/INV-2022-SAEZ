@@ -7,7 +7,16 @@ keywords: {Wireless sensor networks;Fuzzy systems;Clustering algorithms;Sensors;
 # Abstract:
 One of the main concerns in Wireless Sensor Networks is the efficient energy management of the nodes. Hierarchical techniques such as clustering have been developed in an effort to solve this problem. In this paper we present a smart evolution of a distributed clustering method that uses a turn-based scheduling cluster head selection process based on an interval Type-2 fuzzy system. The method we propose offers four main improvements. First, the setup process guided by the Base Station is adapted to tune the skip parameter during the network lifetime, which controls how many rounds the clusters are not updated. Second, the normalization of the fuzzy system input variables is carefully performed based on a statistical analysis to reduce the effect of fluctuations in edge values. Third, the value of the coefficient applied to the output of the inner Type-2 fuzzy system is updated to balance the number of cluster heads at early stages. Finally, only the strongest candidate nodes, those with the highest probability, are selected to become cluster heads. The proposed design and scheduling aim to achieve low-energy processing in the nodes. When our proposed techniques are applied, they give better results compared with other similar approaches.
 
+
 # How to run
+
+## License
+Creative Commons Attribution (CC BY) license [(https://creativecommons.org/licenses/by/4.0/)](https://creativecommons.org/licenses/by/4.0/)
+
+## Disclaimer
+
+This software is provided “as is”, without any express or implied warranties. No maintenance, updates, or technical support are provided. Use of the software is entirely at the user’s own risk. In no event shall the developer be held liable for any direct, indirect, incidental, or consequential damages arising from the use of, or inability to use, this software.
+
 ## File: saez_best_v3_variables_de_entrada_simples.m
 It is the main file with the proposed algorithm.
 
